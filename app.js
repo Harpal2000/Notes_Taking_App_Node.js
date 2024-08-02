@@ -10,7 +10,7 @@ let nextId = 1;
 
 const errorHandler = (err, req, res, next) => {
     console.error(err.stack);
-    res.status(500).json({ error: 'Internal Server Error' });
+    res.status(500).json({ message: 'Internal Server Error', error: err.stack });
 };
 
 // Create a new note
