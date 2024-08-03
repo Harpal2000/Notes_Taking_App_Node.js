@@ -5,7 +5,7 @@
 
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/Harpal2000/Notes_Taking_App_Node.js.git
    cd note-taking-api
    ```
 
